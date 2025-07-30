@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'assets/style.css' %}">
+    <title>Royal Fitness</title>
+</head>
+<body>
+    <!-- <header section code> -->
+
+        <header>
+            <a href="#home" class="logo">Royal <span>Fitness</span></a>
+
+            <div class='bx bx-menu' id="menu-icon"></div>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">AboutUs</a></li>
+                <li><a href="#plans">Pricing</a></li>
+                <li><a href="#review">Review</a></li>
+            </ul>
+            <div class="top-btn">
+                <a href="#" class="nav-btn">Join Us</a>
+
+           </div>    
+        </header>
+
+        <!-- home section code -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Build Yours</h3>
+                <h1>Dream Physique</h1>
+                <h3><span class="multiple-text">Bodybuilding
+                </span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis amet dolorem exercitationem. Vitae modi.
+                </p>
+                <a href="#" class="btn">Join Us</a>
+
+            </div>
+
+            <div class="home-img">
+                <img src="{% static 'assets/heroImage.png' %}" alt="Home Image">
+
+
+            </div>
+
+            </section>
+<!-- services section code -->
+
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+            
+            <div class="services-content">
+                <div class="row">
+                <img src="{% static 'assets/image1.jpg' %}" alt="">
+            
+                <h4>Physical Fitness</h4>
+            </div>
+
+            <div class="row">
+                <img src="{% static 'assets/image2.jpg' %}" alt="">
+            
+                <h4>Weight Gaining</h4>
+            </div>
+
+            <div class="row">
+                <img src="{% static 'assets/image3.jpg' %}" alt="">
+            
+                <h4>strength Training</h4>
+            </div>
+
+            <div class="row">
+                <img src="{% static 'assets/image4.jpg' %}" alt="">
+            
+                <h4>Fat Loss</h4>
+            </div>
+
+            <div class="row">
+                <img src="{% static 'assets/image5.jpg' %}" alt="">
+            
+                <h4>Weight Lifting</h4>
+            </div>
+
+            <div class="row">
+                <img src="{% static 'assets/about.jpg' %}" alt="">
+            
+                <h4>Running</h4>
+            </div>
+        </div>
+
+        <!-- section of About Us -->
+         <section class="about" id="about">
+<div class="about-img">
+    <img src="{% static 'assets/about.jpg' %}" alt="" srcset="">
+</div>
+<div class="about-content">
+    <h2 class="heading">Wht Choose Us?</h2>
+    <p>Our Diverse membership base creates a friendly and supportive atmosphere, where you can make friends and stay motivated</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, maiores!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, dolore!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, minima?</p>
+
+    <a href="#" class="btn">Book a Free class</a>
+</div>
+         </section>
+         
+<!-- pricing section code -->
+
+<section class="plans" id="plans">
+    <h2 class="heading">Our <span>Plans</span></h2>
+
+    <div class="plans-content">
+
+        <div class="box">
+            <h3>BASICS</h3>
+            <h2><span>$100/Month</span></h2>
+            <ul>
+                <li>Smart Workout Plan</li>
+                <li>At Home Workout</li>
+            </ul>
+
+            <a href="#">
+                Join Now
+                <i class='bx bx-right-arrow-alt'></i>
+            </a>
+        </div>   
+        
+        <div class="box">
+            <h3>PRO</h3>
+            <h2><span>$150/Month</span></h2>
+            <ul>
+                <li>Pro GYMs</li>
+                <li>Smart Workout Plan</li>
+                <li>At Home Workout</li>
+            </ul>
+
+            <a href="#">
+                Join Now
+                <i class='bx bx-right-arrow-alt'></i>
+            </a>
+
+        </div> 
+        <div class="box">
+            <h3>PREMIUM</h3>
+            <h2><span>$300/Month</span></h2>
+            <ul>
+                <li>ELITE GYMs and Classes </li>
+                <li>Pro GYMs</li>
+                <li>Smart Workout Plan</li>
+                <li>At Home Workout</li>    
+                <li>Personal Trainer</li>
+            </ul>
+
+            <a href="#">
+                Join Now
+                <i class='bx bx-right-arrow-alt'></i>
+            </a>
+
+        </div> 
+
+        
+        
+    </div>
+</section>
+<!-- review section code -->
+ <section class="review" id="review">
+    <div class="review-box">
+        <h2 class="heading">Client <span>Reviews</span></h2>
+        <div class="wrapper">
+            <div class="review-item">
+                <img src="{% static 'assets/1.jpg' %}" alt="" srcset="">
+                <h2>John</h2>
+                <div class="rating">
+                 <i class='bx bxs-star'id="star" ></i>
+                 <i class='bx bxs-star' id="star"></i>
+                 <i class='bx bxs-star' id="star"></i>
+                 <i class='bx bxs-star' id="star"></i>
+                 <i class='bx bxs-star' id="star"></i>
+                </div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore?</p>
+             </div>
+         
+
+        <div class="review-item">
+            <img src="{% static 'assets/2.jpg' %}" alt="" srcset="">
+            <h2>Steve</h2>
+            <div class="rating">
+            <i class='bx bxs-star' id="star"></i><i class='bx bxs-star'id="star" ></i><i class='bx bxs-star' id="star"></i><i class='bx bxs-star' id="star"></i><i class='bx bxs-star' id="star"></i>
+        </div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore?</p>
+</div>
+
+    <div class="review-item">
+        <img src="{% static 'assets/3.jpg' %}" alt="" srcset="">
+        <h2>Harry</h2>
+        <div class="rating">
+        <i class='bx bxs-star'id="star" ></i><i class='bx bxs-star' id="star"></i><i class='bx bxs-star' id="star"></i><i class='bx bxs-star' id="star"></i><i class='bx bxs-star' id="star"></i>
+    </div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore?</p>
+
+     </div>
+    </div>
+</div>
+ </section>
+
+<!-- footer section code -->
+<footer class="footer">
+    <div class="social">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+    </div>
+
+    <p class="copyright">
+        &copy; 2025 Royal Fitness. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
