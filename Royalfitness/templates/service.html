@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Gym Services | FitLife{% endblock %}
+
+{% block head %}
+<!-- Hero Section -->
+<section class="hero-section py-5 text-center bg-dark text-white">
+    <div class="container">
+        <h1 class="display-3 fw-bold mb-4">Our Premium Services</h1>
+        <p class="lead">Transform your fitness journey with our expert-led programs</p>
+        <a href="#services" class="btn btn-warning btn-lg mt-3">Explore Services</a>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">What We Offer</h2>
+            <p class="lead text-muted">Choose from our range of specialized fitness programs</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Service 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm h-100 bg-dark text-white p-4">
+                    <div class="service-icon bg-dark text-white mb-3"><i class="fas fa-dumbbell fa-2x"></i></div>
+                    <h3 class="h5 fw-bold">Personal Training</h3>
+                    <p>One-on-one sessions with certified trainers to create customized workout plans.</p>
+                    <ul class="text-start">
+                        <li>Initial fitness assessment</li>
+                        <li>Customized workout plans</li>
+                        <li>Form correction and technique guidance</li>
+                        <li>Progress tracking and adjustments</li>
+                        <li>Nutrition guidance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm h-100 bg-dark text-white p-4">
+                    <div class="service-icon bg-dark text-white mb-3"><i class="fas fa-users fa-2x"></i></div>
+                    <h3 class="h5 fw-bold">Group Classes</h3>
+                    <p>High-energy group workouts including yoga, Zumba, HIIT, and spinning classes.</p>
+                    <ul class="text-start">
+                        <li>Yoga & Pilates</li>
+                        <li>Zumba & Dance Fitness</li>
+                        <li>HIIT & Circuit Training</li>
+                        <li>Spinning & Cycling</li>
+                        <li>Boxing & Martial Arts</li>
+                    </ul>
+                    <p class="fw-bold">Included in Premium Membership</p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm h-100 bg-dark text-white p-4">
+                    <div class="service-icon bg-dark text-white mb-3"><i class="fas fa-apple-alt fa-2x"></i></div>
+                    <h3 class="h5 fw-bold">Nutrition Counseling</h3>
+                    <p>Personalized meal plans and dietary guidance to support your fitness journey.</p>
+                    <ul class="text-start">
+                        <li>Dietary assessment</li>
+                        <li>Personalized meal plans</li>
+                        <li>Supplement guidance</li>
+                        <li>Healthy cooking workshops</li>
+                        <li>Regular progress reviews</li>
+                    </ul>
+                    <p class="fw-bold">Starting at 1000/session</p>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm h-100 bg-dark text-white p-4">
+                    <div class="service-icon bg-dark text-white mb-3"><i class="fas fa-spa fa-2x"></i></div>
+                    <h3 class="h5 fw-bold">Recovery Services</h3>
+                    <p>Massage therapy, sauna sessions, and stretching programs to aid recovery.</p>
+                    <ul class="text-start">
+                        <li>Therapeutic massage</li>
+                        <li>Infrared sauna sessions</li>
+                        <li>Assisted stretching</li>
+                        <li>Cryotherapy</li>
+                        <li>Compression therapy</li>
+                    </ul>
+                    <p class="fw-bold">Starting at 1500/session</p>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm h-100 bg-dark text-white p-4">
+                    <div class="service-icon bg-dark text-white mb-3"><i class="fas fa-child fa-2x"></i></div>
+                    <h3 class="h5 fw-bold">Youth Programs</h3>
+                    <p>Specialized fitness programs for children and teenagers to build healthy habits.</p>
+                    <ul class="text-start">
+                        <li>Fitness fundamentals</li>
+                        <li>Sports conditioning</li>
+                        <li>Team building exercises</li>
+                        <li>Nutritional education</li>
+                        <li>Age-appropriate activities</li>
+                    </ul>
+                    <p class="fw-bold">Starting at 1200/session</p>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm h-100 bg-dark bg-dark text-white p-4">
+                    <div class="service-icon bg-dark text-white mb-3"><i class="fas fa-laptop fa-2x"></i></div>
+                    <h3 class="h5 fw-bold">Virtual Training</h3>
+                    <p>Online coaching sessions and workout plans you can follow from anywhere.</p>
+                    <ul class="text-start">
+                        <li>Live one-on-one sessions</li>
+                        <li>Pre-recorded workout libraries</li>
+                        <li>Custom workout plans</li>
+                        <li>Progress tracking</li>
+                        <li>Mobile app access</li>
+                    </ul>
+                    <p class="fw-bold">Starting at 500/session</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="bg-primary bg-dark text-white py-5 text-center">
+    <div class="container">
+        <h2 class="display-5 fw-bold mb-3">Ready to Start Your Fitness Journey?</h2>
+        <p class="lead mb-4">Join RoyalFitness Gym today and get access to all our premium services</p>
+        <a href="/join" class="btn btn-light btn-lg">Become a Member</a>
+    </div>
+</section>
+{% endblock head %}

@@ -1,0 +1,93 @@
+{% extends 'base.html' %} 
+{% block title %} Enrollment for Gym {% endblock title%}
+
+{% block head %}
+<h1>Join The Best Gym</h1>
+
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-md-3"></div>
+
+    <div class="col-md-6">
+
+      {% for message in messages %}
+      <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert">
+        {{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+      {% endfor %}
+
+      <!-- ✅ Enrollment form -->
+      <form action="/join" method="post">
+        {% csrf_token %}
+        
+        <div class="form-group">
+          <input type="text" class="form-control" name="FullName" placeholder="Enter Your Full Name" required>
+        </div>
+
+        <div class="form-group">
+          <input type="email" class="form-control mt-2" value="{{user.email}}" name="email" readonly required>
+        </div>
+
+        <div class="form-group">
+          <select class="form-control mt-2" name="gender" required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <input type="number" class="form-control mt-2" value="{{user.username}}" name="PhoneNumber" readonly required>
+        </div>
+
+        <div class="form-group">
+          <input type="date" class="form-control mt-2" name="DOB" required>
+        </div>
+
+        <div class="form-group">
+          <select class="form-control mt-2" name="member" required>
+            <option value="" disabled selected>Select Membership Plan</option>
+            {% for p in Membership %}
+              <option value="{{p.plan}} - {{p.price}}">{{p.plan}} - {{p.price}} Rs</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="form-group">
+          <select class="form-control mt-2" name="trainer" required>
+            <option value="" disabled selected>Select Trainer</option>
+            {% for p in SelectTrainer %}
+              <option value="{{p.name}}">{{p.name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control mt-2" name="reference" placeholder="Referred By">
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control mt-2" name="address" placeholder="Address">
+        </div>
+
+        <br />
+        <div class="d-grid gap-2">
+          <button class="btn btn-warning" type="submit">Enroll</button>
+        </div>
+      </form>
+
+      <!-- ✅ Razorpay Payment form (separate) -->
+      <form action="/payment" method="POST">
+        {% csrf_token %}
+        <script 
+          src="https://checkout.razorpay.com/v1/payment-button.js" 
+          data-payment_button_id="pl_RKCo6TUaP3YrhU" async>
+        </script>
+      </form>
+
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
+{% endblock head %}

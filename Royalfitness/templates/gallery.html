@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}  <!-- <-- Add this line -->
+
+{% block title %}Gallery{% endblock title %}
+
+{% block head %}
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1>Gallery</h1>
+    </div>
+
+    <div class="row">
+        {% for post in posts %}
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+
+                <!-- Image -->
+                {% if post.img %}
+                    <img src="{{ post.img.url }}" class="card-img-top" alt="{{ post.title }}">
+                {% endif %}
+
+                <!-- Video -->
+                {% if post.video %}
+                    <video class="card-img-top" controls>
+                        <source src="{{ post.video.url }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                {% endif %}
+
+                <!-- Placeholder if no media -->
+                {% if not post.img and not post.video %}
+                    <img src="{% static 'images/placeholder.png' %}" class="card-img-top" alt="No media available">
+                {% endif %}
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-text">Uploaded On: {{ post.timeStamp|date:"F d, Y" }}</p>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="col-12">
+            <p class="text-center">No posts available yet.</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock head %}

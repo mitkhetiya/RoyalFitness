@@ -1,0 +1,56 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Free Trial{% endblock title %}
+
+{%block head%}
+
+<form method="post" action="{% url 'free_trial' %}">
+        {% csrf_token %}
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="text" class="form-control" id="phone" name="phone" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="goals" class="form-label">Fitness Goals</label>
+                  <textarea class="form-control" id="goals" name="goals" rows="3" placeholder="e.g. Weight loss, strength training, overall fitness"></textarea>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-lg">Start Free Trial</button>
+                </div>
+              </form>
+
+              <p class="text-center mt-3">Already a member? <a href="/login">Login here</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Free Trial Section -->
+
+  {% endblock head %}  
+
+  {% block footer%}
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background mt-5">
+    <div class="container text-center py-3">
+      <p>© <strong>RoyalFitness</strong> All Rights Reserved</p>
+    </div>
+  </footer>
+
+{% endblock footer %}

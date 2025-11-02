@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About Us{% endblock title %}
+
+<!-- Hero Section with Overlay -->
+{% block head %}
+  <h1 class="display-3 fw-bold .bg-dark">About Royal Fitness</h1>
+  <p class="lead">Where strength meets community, and your goals become reality.</p>
+{% endblock head %}
+
+<!-- Main About Content -->
+{% block body %}
+<div class="container py-5 ">
+  <!-- Mission Section -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid rounded shadow" alt="About Royal Fitness">
+    </div>
+    <div class="col-md-6">
+      <h2 class="fw-bold">Our Mission</h2>
+      <p class="lead ">
+        At <strong>Royal Fitness</strong>, our mission is to empower individuals of all fitness levels 
+        to achieve their goals through expert coaching, state-of-the-art equipment, and a supportive community. 
+        Whether you are just starting your fitness journey or are a professional athlete, 
+        we are here to guide you every step of the way.
+      </p>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="text-center mb-5 background-light p-4 rounded shadow-sm">
+    <h2 class="fw-bold">Meet Our Trainers</h2>
+    <p class="text-muted">A passionate team dedicated to helping you succeed.</p>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <img src="{% static 'assets/img/trainer1.jpg' %}" class="rounded-circle mb-3 shadow" width="150" height="150" alt="Trainer 1">
+      <h5>Ishaan Thakur</h5>
+      <p class="text-muted">Strength & Conditioning Coach</p>
+    </div>
+    <div class="col-md-4">
+      <img src="{% static 'assets/img/trainer2.jpg' %}" class="rounded-circle mb-3 shadow" width="150" height="150" alt="Trainer 2">
+      <h5>Saket gokhale</h5>
+      <p class="text-muted">Yoga & Flexibility Specialist</p>
+    </div>
+    <div class="col-md-4">
+      <img src="{% static 'assets/img/trainer3.jpg' %}" class="rounded-circle mb-3 shadow" width="150" height="150" alt="Trainer 3">
+      <h5>Nishika Mehta</h5>
+      <p class="text-muted">Nutrition & Lifestyle Coach</p>
+    </div>
+  </div>
+
+  <!-- Values Section -->
+  <div class="mt-5 text-center">
+    <h2 class="fw-bold">Why Choose Royal Fitness?</h2>
+    <p class="lead">Because we believe fitness is more than a workout — it’s a way of life.</p>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="p-4 border rounded shadow-sm">
+          <h5 class="fw-bold">Modern Equipment</h5>
+          <p>Our gym is equipped with cutting-edge machines and tools for every fitness goal.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 border rounded shadow-sm">
+          <h5 class="fw-bold">Expert Trainers</h5>
+          <p>Certified professionals who tailor workouts and nutrition plans to your needs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 border rounded shadow-sm">
+          <h5 class="fw-bold">Community Spirit</h5>
+          <p>A motivating, friendly, and supportive environment where everyone belongs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

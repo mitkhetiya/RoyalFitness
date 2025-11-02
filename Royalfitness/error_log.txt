@@ -1,0 +1,549 @@
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[25/Sep/2025 05:05:06] "GET / HTTP/1.1" 200 14806
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18454
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[25/Sep/2025 05:05:06] "GET /static/assets/css/main.css HTTP/1.1" 200 37485
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 99556
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 2735
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232111
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+[25/Sep/2025 05:05:06] "GET /static/assets/img/main.jpg HTTP/1.1" 200 53863
+[25/Sep/2025 05:05:06] "GET /static/assets/img/about.jpg HTTP/1.1" 200 154138
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56343
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 154597
+[25/Sep/2025 05:05:06] "GET /static/assets/js/main.js HTTP/1.1" 200 6078
+[25/Sep/2025 05:05:06] "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a HTTP/1.1" 200 134044
+[25/Sep/2025 05:05:07] "GET /static/assets/img/favicon.png HTTP/1.1" 200 1156
+[25/Sep/2025 05:05:43] "GET /signup HTTP/1.1" 200 5711
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 99556
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232111
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18454
+[25/Sep/2025 05:05:43] "GET /static/assets/css/main.css HTTP/1.1" 200 37485
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+[25/Sep/2025 05:05:43] "GET /static/assets/img/main.jpg HTTP/1.1" 200 53863
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 2735
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56343
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 154597
+[25/Sep/2025 05:05:43] "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[25/Sep/2025 05:05:43] "GET /static/assets/js/main.js HTTP/1.1" 200 6078
+[25/Sep/2025 05:05:44] "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a HTTP/1.1" 200 134044
+[25/Sep/2025 05:05:44] "GET /static/assets/img/favicon.png HTTP/1.1" 200 1156
+[25/Sep/2025 05:06:18] "GET /login HTTP/1.1" 200 5397
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18454
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 99556
+[25/Sep/2025 05:06:18] "GET /static/assets/css/main.css HTTP/1.1" 200 37485
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232111
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 2735
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56343
+[25/Sep/2025 05:06:18] "GET /static/assets/img/main.jpg HTTP/1.1" 200 53863
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[25/Sep/2025 05:06:18] "GET /static/assets/js/main.js HTTP/1.1" 200 6078
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[25/Sep/2025 05:06:18] "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 154597
+[25/Sep/2025 05:06:19] "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a HTTP/1.1" 200 134044
+[25/Sep/2025 05:06:19] "GET /static/assets/img/favicon.png HTTP/1.1" 200 1156
+[25/Sep/2025 05:07:02] "GET /join HTTP/1.1" 302 0
+[25/Sep/2025 05:07:02] "GET /login HTTP/1.1" 200 5646
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 99556
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18454
+[25/Sep/2025 05:07:02] "GET /static/assets/css/main.css HTTP/1.1" 200 37485
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232111
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 2735
+[25/Sep/2025 05:07:02] "GET /static/assets/img/main.jpg HTTP/1.1" 200 53863
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56343
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[25/Sep/2025 05:07:02] "GET /static/assets/js/main.js HTTP/1.1" 200 6078
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[25/Sep/2025 05:07:02] "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 154597
+[25/Sep/2025 05:07:03] "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a HTTP/1.1" 200 134044
+[25/Sep/2025 05:07:03] "GET /static/assets/img/favicon.png HTTP/1.1" 200 1156
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:03:35
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:07:39
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:07:45
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:08:49
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:08:50
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:08:52
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:08:55
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[25/Sep/2025 05:14:13] "GET /payment/16 HTTP/1.1" 200 4443
+[25/Sep/2025 05:14:16] "GET / HTTP/1.1" 200 14903
+[25/Sep/2025 05:14:20] "GET /free-trial/ HTTP/1.1" 200 5995
+Internal Server Error: /free-trial/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py", line 190, in free_trial
+    myquery=free_trial(name=name, email=email, phonenumber=phonenumber, goals=goals)
+TypeError: free_trial() got an unexpected keyword argument 'name'
+[25/Sep/2025 05:14:24] "POST /free-trial/ HTTP/1.1" 500 66516
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): authapp.
+Run 'python manage.py migrate' to apply them.
+September 25, 2025 - 05:08:56
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/management/base.py", line 492, in check
+    all_issues = checks.run_checks(
+        app_configs=app_configs,
+    ...<2 lines>...
+        databases=databases,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/checks/registry.py", line 89, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/Royalfitness/urls.py", line 24, in <module>
+    path('', include('authapp.urls')),
+             ~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/urls.py", line 3, in <module>
+    from . import views
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py", line 181
+    free_trial(request):
+                        ^
+IndentationError: unindent does not match any outer indentation level
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:17:07
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Internal Server Error: /free-trial/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py", line 191, in free_trial
+    return render(request, 'your_template_name.html') # Replace with your template name
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: your_template_name.html
+[25/Sep/2025 05:18:11] "POST /free-trial/ HTTP/1.1" 500 81395
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:17:12
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/management/base.py", line 492, in check
+    all_issues = checks.run_checks(
+        app_configs=app_configs,
+    ...<2 lines>...
+        databases=databases,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/checks/registry.py", line 89, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/Royalfitness/urls.py", line 24, in <module>
+    path('', include('authapp.urls')),
+             ~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/urls.py", line 3, in <module>
+    from . import views
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py", line 181, in <module>
+    d
+NameError: name 'd' is not defined. Did you mean: 'id'?
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:19:26
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Internal Server Error: /free-trial/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'free_trial' object has no attribute 'get'
+[25/Sep/2025 05:19:36] "POST /free-trial/ HTTP/1.1" 500 65216
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:19:28
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:20:43
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:21:04
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:21:06
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[25/Sep/2025 05:21:18] "POST /free-trial/ HTTP/1.1" 302 0
+Internal Server Error: /free-trial/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py", line 201, in free_trial_view
+    return render(request, 'your_template_name.html')
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: your_template_name.html
+[25/Sep/2025 05:21:18] "GET /free-trial/ HTTP/1.1" 500 79974
+/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 25, 2025 - 05:21:14
+Django version 5.2.4, using settings 'Royalfitness.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/razorpay/client.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Internal Server Error: /free-trial/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mitkhetiya/Desktop/gym/Royalfitness/authapp/views.py", line 198, in free_trial_view
+    return render(request, 'authapp/free_trial.html')
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/free_trial.html
+[25/Sep/2025 05:22:41] "GET /free-trial/ HTTP/1.1" 500 79917
